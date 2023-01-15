@@ -1,4 +1,4 @@
-package ru.com.profile.profile;
+package ru.com.profile.entity;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

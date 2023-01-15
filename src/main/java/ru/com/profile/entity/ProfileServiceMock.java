@@ -1,6 +1,7 @@
-package ru.com.profile.profile;
+package ru.com.profile.entity;
 
 import org.springframework.stereotype.*;
+import ru.com.profile.ProfileNotFoundException;
 
 @Service
 public class ProfileServiceMock implements ProfileService {
@@ -11,7 +12,8 @@ public class ProfileServiceMock implements ProfileService {
       return new Profile(
         personId,
         "Иван",
-        "Иванов"
+        "Иванов",
+        5
       );
     } else {
       throw new ProfileNotFoundException(personId);

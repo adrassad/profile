@@ -1,4 +1,4 @@
-package ru.com.profile.profile;
+package ru.com.profile;
 
 public class ProfileNotFoundException extends RuntimeException {
   private final int personId;

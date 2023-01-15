@@ -1,6 +1,8 @@
-package ru.com.profile.profile;
+package ru.com.profile.entity.Controller;
 
 import org.springframework.web.bind.annotation.*;
+import ru.com.profile.entity.Profile;
+import ru.com.profile.entity.ProfileService;
 
 @RestController
 @RequestMapping(value = "/profiles")
